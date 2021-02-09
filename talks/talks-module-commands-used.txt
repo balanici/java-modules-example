@@ -1,0 +1,4 @@
+compile module (in one line):
+javac -p ../modules -d talks src/zoo/animal/talks/content/*.java src/zoo/animal/talks/media/*.java src/zoo/animal/talks/schedule/*.java src/module-info.java
+package to jar:
+jar -cvf ../modules/zoo.animal.talks.jar -C talks/ .

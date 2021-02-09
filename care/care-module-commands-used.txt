@@ -1,0 +1,4 @@
+compile module:
+javac -p ../modules -d care src/zoo/animal/care/details/*.java src/zoo/animal/care/medical/*.java src/module-info.java
+package to jar:
+jar -cvf ../modules/zoo.animal.care.jar -C care/ .

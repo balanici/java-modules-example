@@ -1,0 +1,4 @@
+compile module:
+javac -p ../modules -d staff src/zoo/staff/*.java src/module-info.java
+package to jar:
+jar -cvf ../modules/zoo.staff.jar -C staff/ .

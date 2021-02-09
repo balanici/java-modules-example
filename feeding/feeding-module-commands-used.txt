@@ -1,0 +1,4 @@
+compile module:
+javac -p ../modules -d feeding src/zoo/animal/feeding/*.java src/module-info.java
+package to jar:
+jar -cvf ../modules/zoo.animal.feeding.jar -C feeding/ .
