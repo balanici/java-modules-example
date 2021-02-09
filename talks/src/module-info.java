@@ -3,6 +3,6 @@ module talks {
     exports zoo.animal.talks.media;
     exports zoo.animal.talks.schedule;
 
-    requires feeding;
-    requires care;
+//    requires feeding;
+    requires transitive care;
 }

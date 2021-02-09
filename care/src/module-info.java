@@ -1,4 +1,4 @@
 module care {
     exports zoo.animal.care.medical;
-    requires feeding;
+    requires transitive feeding;
 }
